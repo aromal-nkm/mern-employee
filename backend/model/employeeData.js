@@ -6,7 +6,8 @@ const employeeSchema = mongoose.Schema({
     employeeSalary : Number,
     employeeDepartment : String,
     employeeLocation : String
+      
 })
  
-const employeeData = mongoose.model('employee',employeeSchema)
+const employeeData = mongoose.model('mern',employeeSchema)
 module.exports = employeeData;
